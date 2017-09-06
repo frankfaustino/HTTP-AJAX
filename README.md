@@ -11,17 +11,17 @@ Topics:
 ## Project Description
 
 ### Initialize Project
-  * Run `npm i` inside of the server folder to install its dependencies.  Run `node server.js` to start the server.
+  * <s>Run `npm i` inside of the server folder to install its dependencies.  Run `node server.js` to start the server.
   * Run `create-react-app friends` in in a SEPARATE folder to create your starter application.
   * `npm i --save redux react-redux redux-promise axios` This command will install the needed dependencies.
   * You will create a list of your friends using React and Redux.
   * The general flow of steps will be to create your store, create your reducers, create your containers, and then create the action creators.
   * You will need to use `Redux Promise` as a middleware inside of `src/index.js`.
-  * Create two actions.  One action will retrieve the friends list from the server.  The second action will add a new friend to the friends list on the server.
+  * Create two actions.  One action will retrieve the friends list from the server.  The second action will add a new friend to the friends list on the server.</s>
 
 
 ### State Tree
-  * Your application should have an input field, a submit button, and a list of items that represents your friends list.  Make each friend a separate component.
+  * <s>Your application should have an input field, a submit button, and a list of items that represents your friends list.</s>  Make each friend a separate component.
   * Your application's state tree should have a single property called `friends`.  It should take the same form as the object shown below.
    ```
   {

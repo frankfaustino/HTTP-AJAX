@@ -6,29 +6,34 @@ const app = express();
 
 const friends = [
 	{
-		name: 'Ben',
-		age: 30,
+		name: 'Ben Jerry',
+		friends: 30,
 		email: 'ben@lambdaschool.com',
+		photo: 'https://imgur.com/2BQa0fh.png'
 	},
 	{
-		name: 'Austen',
-		age: 45,
+		name: 'Austen Tex',
+		friends: 45,
 		email: 'austen@lambdaschool.com',
+		photo: 'https://imgur.com/he24byJ.jpg'
 	},
 	{
-		name: 'Ryan',
-		age: 15,
+		name: 'Ryan Hambergersøn',
+		friends: 15,
 		email: 'ryan@lambdaschool.com',
+		photo: 'https://imgur.com/k54xZJ7.png'
 	},
 	{
-		name: 'Sean',
-		age: 35,
+		name: 'Sean Connery',
+		friends: 35,
 		email: 'sean@lambdaschool.com',
+		photo: 'https://imgur.com/DUFQH6s.png'
 	},
 	{
-		name: 'Michelle',
-		age: 67,
+		name: 'Audrey Michelle ',
+		friends: 67,
 		email: 'michelle@gmail.com',
+		photo: 'https://imgur.com/8R4vPLC.jpg'
 	},
 ];
 
